@@ -1,0 +1,34 @@
+{
+  "launches": [
+    {
+      "time": "2026-11-25T09:48:40",
+      "argv": [
+        "/home/renku/work/RL-P46-2026/run_envs.py",
+        "--envs",
+        "MountainCarContinuous-v0",
+        "--workers",
+        "14",
+        "--tag",
+        "mcar_noise05",
+        "--",
+        "--expl_noise",
+        "0.5"
+      ],
+      "git_commit": "be3bcacf6ed08cc8246eb3ff007d591092b4b7da",
+      "versions": {
+        "python": "3.13.18",
+        "numpy": "2.5.5",
+        "torch": "2.15.0+cpu",
+        "gymnasium": "1.4.0",
+        "mujoco": "4.0.1",
+        "Box2D": "2.3.10"
+      },
+      "machine": {
+        "platform": "Linux-5.15.0-1126-azure-x86_64-with-glibc2.39",
+        "processor": "x86_64",
+        "cpus": 16
+      }
+    }
+  ],
+  "runs": {}
+}
