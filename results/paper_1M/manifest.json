@@ -431,6 +431,93 @@
         "100"
       ],
       "seconds": 1322
+    },
+    "OurDDPG_MountainCarContinuous-v0_2": {
+      "command": [
+        "/home/renku/work/RL-P46-2026/main.py",
+        "--policy",
+        "OurDDPG",
+        "--env",
+        "MountainCarContinuous-v0",
+        "--seed",
+        "2",
+        "--max_timesteps",
+        "1000000",
+        "--start_timesteps",
+        "1000",
+        "--eval_freq",
+        "5000",
+        "--results_dir",
+        "/home/renku/work/RL-P46-2026/results/paper_1M",
+        "--hidden_sizes",
+        "400",
+        "300",
+        "--actor_lr",
+        "1e-3",
+        "--critic_lr",
+        "1e-3",
+        "--batch_size",
+        "100"
+      ],
+      "seconds": 15459
+    },
+    "OurDDPG_MountainCarContinuous-v0_0": {
+      "command": [
+        "/home/renku/work/RL-P46-2026/main.py",
+        "--policy",
+        "OurDDPG",
+        "--env",
+        "MountainCarContinuous-v0",
+        "--seed",
+        "0",
+        "--max_timesteps",
+        "1000000",
+        "--start_timesteps",
+        "1000",
+        "--eval_freq",
+        "5000",
+        "--results_dir",
+        "/home/renku/work/RL-P46-2026/results/paper_1M",
+        "--hidden_sizes",
+        "400",
+        "300",
+        "--actor_lr",
+        "1e-3",
+        "--critic_lr",
+        "1e-3",
+        "--batch_size",
+        "100"
+      ],
+      "seconds": 15672
+    },
+    "OurDDPG_MountainCarContinuous-v0_1": {
+      "command": [
+        "/home/renku/work/RL-P46-2026/main.py",
+        "--policy",
+        "OurDDPG",
+        "--env",
+        "MountainCarContinuous-v0",
+        "--seed",
+        "1",
+        "--max_timesteps",
+        "1000000",
+        "--start_timesteps",
+        "1000",
+        "--eval_freq",
+        "5000",
+        "--results_dir",
+        "/home/renku/work/RL-P46-2026/results/paper_1M",
+        "--hidden_sizes",
+        "400",
+        "300",
+        "--actor_lr",
+        "1e-3",
+        "--critic_lr",
+        "1e-3",
+        "--batch_size",
+        "100"
+      ],
+      "seconds": 15892
     }
   }
 }
