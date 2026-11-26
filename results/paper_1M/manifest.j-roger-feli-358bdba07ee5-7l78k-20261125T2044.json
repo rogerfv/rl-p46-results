@@ -1360,6 +1360,93 @@
         "100"
       ],
       "seconds": 18039
+    },
+    "TD3_Pusher-v5_2": {
+      "command": [
+        "/home/renku/work/RL-P46-2026/main.py",
+        "--policy",
+        "TD3",
+        "--env",
+        "Pusher-v5",
+        "--seed",
+        "2",
+        "--max_timesteps",
+        "1000000",
+        "--start_timesteps",
+        "1000",
+        "--eval_freq",
+        "5000",
+        "--results_dir",
+        "/home/renku/work/RL-P46-2026/results/paper_1M",
+        "--hidden_sizes",
+        "400",
+        "300",
+        "--actor_lr",
+        "1e-3",
+        "--critic_lr",
+        "1e-3",
+        "--batch_size",
+        "100"
+      ],
+      "seconds": 18061
+    },
+    "TD3_Pusher-v5_4": {
+      "command": [
+        "/home/renku/work/RL-P46-2026/main.py",
+        "--policy",
+        "TD3",
+        "--env",
+        "Pusher-v5",
+        "--seed",
+        "4",
+        "--max_timesteps",
+        "1000000",
+        "--start_timesteps",
+        "1000",
+        "--eval_freq",
+        "5000",
+        "--results_dir",
+        "/home/renku/work/RL-P46-2026/results/paper_1M",
+        "--hidden_sizes",
+        "400",
+        "300",
+        "--actor_lr",
+        "1e-3",
+        "--critic_lr",
+        "1e-3",
+        "--batch_size",
+        "100"
+      ],
+      "seconds": 18071
+    },
+    "TD3_Pusher-v5_5": {
+      "command": [
+        "/home/renku/work/RL-P46-2026/main.py",
+        "--policy",
+        "TD3",
+        "--env",
+        "Pusher-v5",
+        "--seed",
+        "5",
+        "--max_timesteps",
+        "1000000",
+        "--start_timesteps",
+        "1000",
+        "--eval_freq",
+        "5000",
+        "--results_dir",
+        "/home/renku/work/RL-P46-2026/results/paper_1M",
+        "--hidden_sizes",
+        "400",
+        "300",
+        "--actor_lr",
+        "1e-3",
+        "--critic_lr",
+        "1e-3",
+        "--batch_size",
+        "100"
+      ],
+      "seconds": 18103
     }
   }
 }
